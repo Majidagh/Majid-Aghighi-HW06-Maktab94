@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question7</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h3>مشاهده ویدیو محصولات</h3>
+      </div>
+      <section class="video-part">
+        <video controls>
+          <source src="media/video.mp4" type="video/mp4" />
+        </video>
+      </section>
+
+
+      <div class="filter-container">
+        <table class="option-wrap">
+          <tr>
+            <th>Laptop model:</th>
+            <th>processor:</th>
+            <th>RAM:</th>
+            <th>Hard disk:</th>
+            <th>Display:</th>
+          </tr>
+          <tr>
+            <td>
+              <select
+                name=""
+                id="option-set"
+                aria-placeholder="Nothing Selected"
+              >
+                <option value="">Nothing Selected</option>
+              </select>
+            </td>
+            <td>
+              <select
+                name=""
+                id="option-set"
+                aria-placeholder="Nothing Selected"
+              >
+                <option value="">Nothing Selected</option>
+              </select>
+            </td>
+            <td>
+              <button class="ram btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-funnel-fill" viewBox="0 0 16 16">
+                <path d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5v-2z"/>
+              </svg>RAM</button>
+            </td>
+            <td>
+              <button class="ram"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-funnel-fill" viewBox="0 0 16 16">
+                <path d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5v-2z"/>
+              </svg>Hard disk</button>
+            </td>
+            <td>
+              <select
+                name=""
+                id="option-set"
+                aria-placeholder="Nothing Selected"
+              >
+                <option value="">Nothing Selected</option>
+              </select>
+            </td>
+          </tr>
+      </div>
+
+        <table class="products">
+          <hr>
+          <tr>
+            <th>Laptop model</th>
+            <th>Picture</th>
+            <th>processor</th>
+            <th>RAM</th>
+            <th>Hard disk</th>
+            <th>Display</th>
+            <th>graphics</th>
+            <th>OS</th>
+            <th>Weight</th>
+            <th>Battery</th>
+            <th>Price</th>
+            <th>Purchase</th>
+          </tr>
+          <tr>
+            <td>Acer Chrombook CB3<br>131-C3SZ</td>
+            <td><img src="media/acer.jpg" alt=""></td>
+            <td>Intel<br>Celeron<br>N2840 2.16<br>GHZ</td>
+            <td>2GB DDR3</td>
+            <td>16GB SSD</td>
+            <td>11.6" HD <br> IPS Screen <br>1366 x <br>768</td>
+            <td>Intel HD <br> Graphics</td>
+            <td>Google <br> Chrome <br>Operating <br>System</td>
+            <td>2.4 pounds</td>
+            <td>9h</td>
+            <td>$228</td>
+            <td><button>Buy now</button></td>
+          </tr>
+          <td>ASUS F576UA-AB32</td>
+          <td><img src="media/asus.jpg" alt=""></td>
+          <td>Intel Core<br>i3-6100U<br>2.3 GHz</td>
+          <td>4GB DDR4</td>
+          <td>1TB HDD</td>
+          <td>15.6" FHD <br>1920 x <br>1080</td>
+          <td>Intel HD <br> Graphics</td>
+          <td>Windows 10</td>
+          <td>5.1 pounds</td>
+          <td>5h</td>
+          <td>$1,454</td>
+          <td><button>Buy now</button></td>
+           </tr> 
+          </tr>
+          <td>Lenovo Flex 4.2-in-1</td>
+          <td><img src="media/lenovo.jpg" alt=""></td>
+          <td>Intel Core<br>i7-7500U<br>2.7 GHz</td>
+          <td>4GB DDR4</td>
+          <td>1TB HDD</td>
+          <td>15.6" FHD <br>1920 x <br>1080</td>
+          <td>Intel HD <br> Graphics <br> 620</td>
+          <td>Windows 10</td>
+          <td>4.21 pounds</td>
+          <td>6h</td>
+          <td>$754</td>
+          <td><button>Buy now</button></td>
+           </tr> 
+          </tr>
+          <td>ASUS Vivobook</td>
+          <td><img src="media/Asus2.jpg" alt=""></td>
+          <td>Intel Core<br>i5-7250U<br>Up to 3.4<br> GHz</td>
+          <td>8GB DDR8</td>
+          <td>1TB HDD</td>
+          <td>14.2" FHD <br> Graphics</td>
+          <td>Intel UHD <br> Graphics <br> 620</td>
+          <td>Windows 10</td>
+          <td>3.7 pounds</td>
+          <td>5h</td>
+          <td>$499</td>
+          <td><button>Buy now</button></td>
+           </tr> 
+        </table>
+    </div>
+  </body>
+</html>
