@@ -1,13 +1,27 @@
 const salaries = {
-  john: 100,
-  pete: 300,
-  mary: 250,
+  John: 100,
+  Pete: 300,
+  majid: 300,
+  Mary: 250,
 };
 
-const topSalary = (salaryPerson) => {
-  for (const salary of Object.entries(salaryPerson)) {
-    let [name, salary] = salary;
-    console.log(salary);
+function topSalary(salaries) {
+  const TopSalaries = [];
+
+  let topSalary = 0;
+
+  for (const [name, salary] of Object.entries(salaries)) {
+    topSalary = salary >= topSalary ? salary : topSalary;
   }
-};
-topSalary(salaries);
+
+  for (const [name, salary] of Object.entries(salaries)) {
+    if (topSalary == salary) {
+      TopSalaries.push(name);
+    }
+  }
+
+  return TopSalaries;
+}
+
+let result = topSalary(salaries);
+console.log(result);
