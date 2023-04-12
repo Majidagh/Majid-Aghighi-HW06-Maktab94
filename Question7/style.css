@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200&display=swap");
+
+@font-face {
+  font-family: Estedad;
+  src: url("fonts/Estedad-Medium.woff2") format("woff2"),
+    url("fonts/Estedad-SemiBold.woff2") format("woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sarabun", sans-serif;
+}
+
+body {
+  width: 100vw;
+  /* height: 100vh; */
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  /* font-size: 15px; */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 30;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 50px;
+}
+
+video {
+  display: block;
+  width: 700px;
+  height: 500px;
+  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.filter-container {
+  display: contents;
+  justify-content: space-between;
+  text-align: left;
+  margin-right: 30px;
+  font-size: 15px;
+}
+
+.option-wrap {
+  margin-left: 70px;
+}
+
+hr {
+  margin: 20px 60px;
+  width: 90%;
+}
+
+.filter-container th,
+td {
+  padding: 0;
+}
+
+#option-set {
+  width: 180px;
+  height: 30px;
+  margin-top: 10px;
+  text-align: left;
+  background-color: white;
+  border: 0.3px solid rgb(165, 154, 154);
+  appearance: none;
+  padding-left: 5px;
+  color: rgb(175, 171, 171);
+  background-image: url(/Question7/media/caret-down-fill.svg);
+  background-repeat: no-repeat;
+  background-position: left 165px top 50%;
+  background-size: 10px;
+  bottom: 0;
+  font-size: 15px;
+}
+
+.ram {
+  background-color: #0085c2;
+  width: 180px;
+  height: 30px;
+  border: 0;
+  color: white;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.products {
+  border-top: 3px;
+  line-break: auto;
+  font-size: 15px;
+  line-break: auto;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 50;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.products td,
+th {
+  padding: 20px;
+}
+
+img {
+  width: 60%;
+}
+
+.products button {
+  background-color: #0a1e72;
+  color: #d1d3da;
+  border-radius: 30px;
+  border: 0;
+  width: 80px;
+  height: 30px;
+}
